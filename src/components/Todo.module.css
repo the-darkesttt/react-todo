@@ -1,0 +1,88 @@
+.todo {
+        max-width: 400px;
+        padding: 50px;
+        border-radius: 10px;
+        border: 2px solid #747bff;
+        transition: .6s;
+        background-color: #1f1e1e;
+      
+        -webkit-box-shadow: 4px 4px 100px 0px rgba(116, 123, 255, 0.13);
+        -moz-box-shadow: 4px 4px 100px 0px rgba(116, 123, 255, 0.13);
+        box-shadow: 4px 4px 100px 0px rgba(116, 123, 255, 0.13);
+      }
+      
+      .todo:hover {
+        -webkit-box-shadow: 4px 4px 100px 14px rgba(116, 123, 255, 0.28);
+        -moz-box-shadow: 4px 4px 100px 14px rgba(116, 123, 255, 0.28);
+        box-shadow: 4px 4px 100px 14px rgba(116, 123, 255, 0.28);
+      }
+      
+      h1 {
+        text-align: center;
+        font-size: 28px;
+      }
+      
+      span {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      .taskInput {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+      }
+      
+      input[name='task'] {
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid #444141;
+        transition: .3s;
+        border-radius: 5px;
+        padding: 10px;
+      }
+      
+      input[name='task']:focus {
+        outline: none;
+        border-bottom: 2px solid #747bff;
+        background-color: #747bff1e;
+      }
+      
+      button {
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: 0.6em 1.2em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        background-color: #747bff;
+        cursor: pointer;
+        transition: border-color 0.25s;
+      }
+      
+      button:focus,
+      button:focus-visible {
+        outline: 4px auto -webkit-focus-ring-color;
+      }
+      
+      .removeTasks {
+        background-color: #181717;
+      }
+      
+      .removeTasks:hover {
+        background-color: rgb(202, 101, 101);
+      }
+      
+      ul {
+        list-style: none;
+        margin: 50px 0;
+      }
+      
+      li {
+        margin: 10px 0;
+      }
+      
+      input[type='checkbox'] {
+        margin-right: 15px;
+      }
+      
